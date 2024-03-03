@@ -1,0 +1,7 @@
+spring:
+  rabbitmq: #These configurations are automatically applied by Spring Boot when integrating with RabbitMQ
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
